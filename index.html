@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img src="./img/tired_cat.png" class="d-block mx-lg-auto img-fluid" alt="cat" width="700"
+                    height="500" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold lh-1 mb-3">
+                    Из ряда вон выходящий катарсис: сомнение или даосизм?
+                </h1>
+                <p class="lead">
+                    Принцип восприятия, по определению, ментально дискредитирует дедуктивный метод, отрицая
+                    очевидное.
+                    Отвечая на вопрос о взаимоотношении идеального ли и материального ци, Дай Чжень заявлял, что
+                    позитивизм прост.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="b-example-divider mb-0"></div>
+
+    <div class="container">
+        <div class="row $gray-200">
+            <div class="col-lg-12">
+                <h2 class="text-center">
+                    Комментарии
+                </h2>
+            </div>
+            <div class="col-lg-6">
+                <div id="comment-field">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <form class="was-validated">
+                    <div class="form-group">
+                        <label for="comment-name">Имя:</label>
+                        <input type="name" class="form-control" id="comment-name" placeholder="Имя" required>
+                        <div class="invalid-feedback">
+                            Пожалуйста, введите ваше имя.
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="comment-date">Дата:</label>
+                        <input type="date" class="form-control" id="comment-date" placeholder="Enter your date">
+                    </div>
+                    <div class="form-group">
+                        <label for="comment-body">Ваш Комментарии:</label>
+                        <textarea type="password" class="form-control" id="comment-body" placeholder="Комментарии" required></textarea>
+                        <div class="invalid-feedback">
+                            Пожалуйста, введите сообщение в текстовое поле.
+                        </div>
+                    </div>
+                    <div class="form-group form-check text-right">
+                        <button type="submit" id="comment-add" class="btn btn-success">add Comment</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="b-example-divider"></div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
